@@ -1,25 +1,22 @@
 ﻿using System;
 
-int secretNumber = 42;
-int attempt = 1;
-bool guessed = false;
-while (attempt < 5 && !guessed) 
+int secretNumber = new Random().Next(1, 101);
+
+int attempts = 4;
+
+while (attempts > 0) 
 {
-    Console.Write($"Guess a secret number (Guess #{attempt}): ");
+    Console.Write("Guess a secret number: ");
+    attempts--;
     int guessedNumber = int.Parse(Console.ReadLine());
 
-    if (guessedNumber == secretNumber)
-        {
-            Console.WriteLine("Your guess is correct!");
-            guessed = true;
-        }
+    string onWrong = (attempts != 0) ? $"Try again... You have {attempts} tries left" : $"All out of attempts\nThe number was {secretNumber}";
 
-    else 
-        {
-            Console.WriteLine("Unfortunately, your guess is incorrect.");
-        }
-        attempt++;
+    bool correct = guessedNumber == secretNumber;
+
+    string result = (correct) ? "You got the secret number!!" : onWrong;
+    Console.WriteLine(result);
+    if (correct)
+    break;
 }
-
-
 
