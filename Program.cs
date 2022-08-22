@@ -6,6 +6,7 @@ Console.Write("Choose difficulty level (e, m, or h): ");
 string difficulty = Console.ReadLine().ToLower();
 
 int attempts = 0;
+bool cheater = false;
 
 switch(difficulty)
 {
@@ -21,9 +22,14 @@ switch(difficulty)
     attempts = 4;
     break;
 
+    case "cheater":
+    
+    cheater = true;
+    break;
+
 }
 
-while (attempts > 0) 
+while (attempts > 0 || cheater) 
 {
     Console.Write("Guess a secret number: ");
     attempts--;
@@ -31,7 +37,7 @@ while (attempts > 0)
 
     string highOrLow = (guessedNumber > secretNumber) 
     ? "Too high" : "Too low";
-    string onWrong = (attempts != 0) ? $"{highOrLow}, you have {attempts} tries left" : $"All out of attempts\nThe number was {secretNumber}";
+    string onWrong = (attempts != 0) ? $"{highOrLow}, you have {(cheater ? "*" : attempts)} tries left" : $"All out of attempts\nThe number was {secretNumber}";
 
     bool correct = guessedNumber == secretNumber;
 
