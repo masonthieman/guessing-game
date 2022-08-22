@@ -10,7 +10,9 @@ while (attempts > 0)
     attempts--;
     int guessedNumber = int.Parse(Console.ReadLine());
 
-    string onWrong = (attempts != 0) ? $"Try again... You have {attempts} tries left" : $"All out of attempts\nThe number was {secretNumber}";
+    string highOrLow = (guessedNumber > secretNumber) 
+    ? "Too high" : "Too low";
+    string onWrong = (attempts != 0) ? $"{highOrLow}, you have {attempts} tries left" : $"All out of attempts\nThe number was {secretNumber}";
 
     bool correct = guessedNumber == secretNumber;
 
