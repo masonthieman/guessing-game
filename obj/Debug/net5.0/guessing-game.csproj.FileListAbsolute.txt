@@ -3,3 +3,13 @@
 /Users/mason/workspace/guessing-game/obj/Debug/net5.0/guessing-game.AssemblyInfoInputs.cache
 /Users/mason/workspace/guessing-game/obj/Debug/net5.0/guessing-game.AssemblyInfo.cs
 /Users/mason/workspace/guessing-game/obj/Debug/net5.0/guessing-game.csproj.CoreCompileInputs.cache
+/Users/mason/workspace/guessing-game/bin/Debug/net5.0/guessing-game.deps.json
+/Users/mason/workspace/guessing-game/bin/Debug/net5.0/guessing-game.runtimeconfig.json
+/Users/mason/workspace/guessing-game/bin/Debug/net5.0/guessing-game.runtimeconfig.dev.json
+/Users/mason/workspace/guessing-game/bin/Debug/net5.0/guessing-game.dll
+/Users/mason/workspace/guessing-game/bin/Debug/net5.0/ref/guessing-game.dll
+/Users/mason/workspace/guessing-game/bin/Debug/net5.0/guessing-game.pdb
+/Users/mason/workspace/guessing-game/obj/Debug/net5.0/guessing-game.dll
+/Users/mason/workspace/guessing-game/obj/Debug/net5.0/ref/guessing-game.dll
+/Users/mason/workspace/guessing-game/obj/Debug/net5.0/guessing-game.pdb
+/Users/mason/workspace/guessing-game/obj/Debug/net5.0/guessing-game.genruntimeconfig.cache
