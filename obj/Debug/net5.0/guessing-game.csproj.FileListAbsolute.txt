@@ -1,0 +1,5 @@
+/Users/mason/workspace/guessing-game/obj/Debug/net5.0/guessing-game.csproj.AssemblyReference.cache
+/Users/mason/workspace/guessing-game/obj/Debug/net5.0/guessing-game.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mason/workspace/guessing-game/obj/Debug/net5.0/guessing-game.AssemblyInfoInputs.cache
+/Users/mason/workspace/guessing-game/obj/Debug/net5.0/guessing-game.AssemblyInfo.cs
+/Users/mason/workspace/guessing-game/obj/Debug/net5.0/guessing-game.csproj.CoreCompileInputs.cache
